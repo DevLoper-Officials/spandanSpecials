@@ -1,0 +1,24 @@
+.heading{
+    text-align: center;
+    font-size:50px;
+}
+.para{
+    font-size: 30px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+body{
+    overflow: hidden;
+}
+body::before{
+    content: "";
+    background: url('wd.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    z-index: -1;
+}
